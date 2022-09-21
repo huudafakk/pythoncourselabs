@@ -30,3 +30,13 @@ elif z == 100:
     print("z is not 0, but z is 100")
 else:
     print("z is not 0 and z is not 100")
+
+
+#######################################################################
+x = int(input("x = "))
+if x < 10:
+    print(f"{x} kleiner als 10")
+elif x == 10:
+    print(f"{x} ist gleich 10")
+else:
+    print(f"{x} größer als 10")

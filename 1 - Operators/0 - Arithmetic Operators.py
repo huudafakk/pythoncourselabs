@@ -12,7 +12,8 @@ an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express o
 See the License for the specific language governing permissions and limitations under the License
 '''
 
-x = 4
+#x = 4
+x = int(input("x = "))
 
 print("x =", x)
 print("+")
@@ -33,3 +34,4 @@ print("-x")
 print(" -x =", -x)
 
 # ToDo: Create a functions to perform these operations on inputs.
+
