@@ -43,3 +43,8 @@ print(et)
 
 # What's the type of "1"?
 # ToDo: Print Function with IDs too.
+
+var = "1"
+print(var)
+print(type(var))
+print(id(var))

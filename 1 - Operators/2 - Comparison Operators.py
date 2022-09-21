@@ -21,5 +21,21 @@ print(x != 0)
 print(x >= 0)
 print(x <= 0)
 
+
 # ToDo: Use if statements to make more detailed prints.
+
+if (x > 0):
+    print("bigger then 0")
+if (x < 0):
+    print("smaller then 0")
+if (x == 0):
+    print("is 0")
+if (x != 0):
+    print("is no 0")
+
 # ToDo: Check if x in in one of the following intervals: [-2, 5], (10, 100], (200, 300)
+
+if -2 <= x <= 5 or 10 < x < 100 or 200 < x < 300:
+    print(f"{x} is in the range")
+else:
+    print(f"{x} is not in the range")
