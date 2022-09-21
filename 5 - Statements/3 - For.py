@@ -12,28 +12,58 @@ an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express o
 See the License for the specific language governing permissions and limitations under the License
 '''
 
-l = [0, 1, 2, 3, 4, 5]
-for x in l:
-    print(x)
-print("The end")
+# l = [0, 1, 2, 3, 4, 5]
+# for x in l:
+#     print(x)
+# print("The end")
+#
+# d = {'ita': 'ciao', 'eng': 'hello'}
+# for y in d:
+#     print(d[y])
+# print('The End')
+#
+# s = 'python'
+# for z in s:
+#     print(z)
+# print('The End')
+#
+# for a in range(0, 4):
+#     print(f"a: {a}")
+# print('The End')
+#
+# for b in range(0, 10, 3):
+#     print(f"b: {b}")
+# print('The End')
+#
+# myList = [n for n in range(0, 10) if n % 2 == 0]
+# print(f"myList: {myList}")
 
-d = {'ita': 'ciao', 'eng': 'hello'}
-for y in d:
-    print(d[y])
-print('The End')
+# l= [x for x in range (2, 10)]
+# print(l)
 
-s = 'python'
-for z in s:
-    print(z)
-print('The End')
+###############################################################
+#pag. 111-117
+# liste = ['Markus', 'Martin', 'Lukas']
+# for x in liste:
+#     print(x)
+# print(f"Ende")
+#
+# for x in liste:
+#     if x == 'Markus':
+#         print(f"Ich bin Markus")
+#     else:
+#         print(x)
 
-for a in range(0, 4):
-    print(f"a: {a}")
-print('The End')
+#pag.121-122
+# a = 'python'
+# b = {k:ord(k) for k in a}
+# print(b)
 
-for b in range(0, 10, 3):
-    print(f"b: {b}")
-print('The End')
+#pag.123
+# a = 'doppione'
+# b = {k for k in a}
+# print(b)
 
-myList = [n for n in range(0, 10) if n % 2 == 0]
-print(f"myList: {myList}")
+# #pag. 124
+# for index,value in enumerate (['Hallo','Welt']):
+#     print(index,value, type(index), type(value))
