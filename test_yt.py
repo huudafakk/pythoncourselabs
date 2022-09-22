@@ -1,9 +1,12 @@
 #Range:
-#i = 10
-#for x in range(1,11):
-#    print(x)
-#    if x == i:
-#        print("wert ist 10")
+#x = ["Auto", "Bank", "Baum"]
+#
+#for w in range(len(x)):  # range wird (x,y) geschrieben, dann wird mit (len(x)) die Laenge kontrolliert, nach len wird der Schritt angegeben (welche uebersprungen werden)
+#    print(x[w])         # (x) gibt die gesamte Liste aus, (w) gibt die Position an: 0,1,2, (x[w]) gibt den Wert der Position an: Auto (anstatt 0)
+#    print(type(w))
+
+#  if x == i:
+#       print("wert ist 10")
 #    else:
 #        print("wert ist nicht 10")
 
@@ -31,3 +34,4 @@
 #    print(f"{z}")
 #    if z in y:
 #        print(f"{z}")
+
